@@ -6,9 +6,26 @@ function Card(props) {
                  className="card--image" 
                  alt={props.alt}/>
             <h1 className="card--location">{props.location}</h1>
-            <a href="https://www.google.com/maps/place/Washington,+DC/@38.8930059,-77.0396292,14.62z/data=!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707"   className="card--maps">View on Google Maps</a>
+            <a href={props.map}    
+               className="card--maps">View on Google Maps</a>
             <h2 className="title">{props.title}</h2>
             <h4 className="description">{props.description}</h4>
+
+
+            <div className="card mb-3"></div>
+                <div className="row g-0">
+                    <div className="col-md-4">
+                        <img src="./images/Salzburg.jpg" className="card--image img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
