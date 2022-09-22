@@ -11,7 +11,7 @@ const data = [
     },
     {
         id: 2,
-        location: "Boston",
+        location: "Boston, Massachusetts",
         map: "https://www.google.com/maps/place/Boston,+MA/@42.31435,-70.970284,11z/data=!3m1!4b1!4m5!3m4!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!8m2!3d42.3600825!4d-71.0588801",
         dates: "",
         description: "Boston, officially the City of Boston, is the capital and most populous city of the Commonwealth of Massachusetts in the United States and 24th-most populous city in the country. The city proper covers about 48.4 sq mi with a population of 675,647 in 2020, also making it the most populous city in New England.",
@@ -38,20 +38,13 @@ const data = [
     },
     {
         id: 5,
-        location: "",
+        location: "Zermatt, Switzerland",
+        map: "https://www.google.com/maps/place/3920+Zermatt,+Switzerland/@46.0218253,7.7455427,16z/data=!4m5!3m4!1s0x478f35a2292ee5cd:0x400ff8840196f70!8m2!3d46.0207133!4d7.749117",
         dates: "",
-        description: "",
-        coverImg: "",
-        alt: ""
-    },
-    {
-        id: 6,
-        location: "",
-        dates: "",
-        description: "",
-        coverImg: "",
-        alt: ""
-    },
+        description: "Zermatt, in southern Switzerland’s Valais canton, is a mountain resort renowned for skiing, climbing and hiking. The town, at an elevation of around 1,600m, lies below the iconic, pyramid-shaped Matterhorn peak. Its main street, Bahnhofstrasse is lined with boutique shops, hotels and restaurants, and also has a lively après-ski scene. There are public outdoor rinks for ice-skating and curling.",
+        coverImg: "Mattahorn.jpg",
+        alt: "The Matterhorn as seen from Zermatt City below"
+    }
 ]
 
 export default data
