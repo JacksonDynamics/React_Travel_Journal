@@ -31,7 +31,7 @@ function Card(props) {
 
         <h3 className="card--title">{props.title}</h3>
         <p className="card--date">
-            {props.dates}
+            {props.startDate} - {props.endDate}
         </p>
         <p className="description">{props.description}</p>
     </div>
