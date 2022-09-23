@@ -22,6 +22,8 @@ html {
     height: 168px;
     margin: 100px 40px;
     display: flex;
+    border: 5px solid black;
+
 }
 
 .card--image {
