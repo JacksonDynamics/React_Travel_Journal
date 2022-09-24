@@ -39,11 +39,13 @@ body {
 }
 
 .card {
- 
-    margin: 45px 40px;
+    margin: 0px 40px;
     display: flex;
     /* border: 5px solid black; */
+}
 
+.card:first-child {
+    margin: 45px 40px;
 }
 
 .card--img {
@@ -88,8 +90,8 @@ body {
 }
 
 .cards-list > .card + .card {
-    padding: 4em 0;
-    border-top: 1px solid grey;
+    padding: 4em 0 4em 0;
+    border-top: 1px solid #918e9b;
   }
 
  
