@@ -35,8 +35,9 @@ const data = [
     },
     {
         id: 4,
-        location: "Salzburg, Austria",
+        location: "Austria",
         map: "https://www.google.com/maps/place/Salzburg,+Austria/@47.8018695,13.0414707,15.05z/data=!4m5!3m4!1s0x47769adda908d4b1:0xc1e183a1412af73d!8m2!3d47.80949!4d13.05501",
+        title: "Salzburg",
         startDate: "10 Sept, 2015",
         endDate: "25 Sept, 2015",
         description: "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps. The city is divided by the Salzach River, with medieval and baroque buildings of the pedestrian Altstadt (Old City) on its left bank, facing the 19th-century Neustadt (New City) on its right. The Altstadt birthplace of famed composer Mozart is preserved as a museum displaying his childhood instruments.",
@@ -45,8 +46,9 @@ const data = [
     },
     {
         id: 5,
-        location: "Zermatt, Switzerland",
+        location: "Switzerland",
         map: "https://www.google.com/maps/place/3920+Zermatt,+Switzerland/@46.0218253,7.7455427,16z/data=!4m5!3m4!1s0x478f35a2292ee5cd:0x400ff8840196f70!8m2!3d46.0207133!4d7.749117",
+        title: "The Matterhorn",
         startDate: "10 Sept, 2015",
         endDate: "25 Sept, 2015",
         description: "Zermatt, in southern Switzerland’s Valais canton, is a mountain resort renowned for skiing, climbing and hiking. The town, at an elevation of around 1,600m, lies below the iconic, pyramid-shaped Matterhorn peak. Its main street, Bahnhofstrasse is lined with boutique shops, hotels and restaurants, and also has a lively après-ski scene. There are public outdoor rinks for ice-skating and curling.",
