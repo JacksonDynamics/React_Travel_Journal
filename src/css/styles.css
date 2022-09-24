@@ -1,10 +1,19 @@
 html {
     font-size: 62.5%;
-
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
     font-family: 'Inter', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px grey;
 }
 
 /* HEADER  */
@@ -46,6 +55,7 @@ body {
 }
 
 .card--heading {
+    padding-top: 20px;
     display: flex;
     align-items: center; 
 }
@@ -76,3 +86,10 @@ body {
 .card--description {
     font-size: 1.1rem;
 }
+
+.cards-list > .card + .card {
+    padding: 4em 0;
+    border-top: 1px solid grey;
+  }
+
+ 
