@@ -27,34 +27,34 @@ const data = [
         location: "Germany",
         map: "https://www.google.com/maps/place/91541+Rothenburg+ob+der+Tauber,+Germany/@49.3658144,10.1625091,12z/data=!3m1!4b1!4m5!3m4!1s0x47988efdf06dff37:0x41eda32beb5f5c0!8m2!3d49.3801834!4d10.1867388",
         title: "Rothenburg ob der Tauber",
-        startDate: "10 Sept, 2015",
-        endDate: "25 Sept, 2015",
+        startDate: "18 Sept, 2019",
+        endDate: "19 Sept, 2019",
         description: "Rothenburg ob der Tauber is a German town in northern Bavaria known for its medieval architecture. Half-timbered houses line the cobblestone lanes of its old town. The town walls include many preserved gate houses and towers, plus a covered walkway on top. St. Jakob’s Church houses an intricate, late Gothic altarpiece by woodcarver Tilman Riemenschneider. The medieval Town Hall has a tower with panoramic views.",
         coverImg: "Rothenburg.jpg",
         alt: "Rothenburg picturesqe house in Germany",
-    },
-    {
+    },{
         id: 4,
-        location: "Austria",
-        map: "https://www.google.com/maps/place/Salzburg,+Austria/@47.8018695,13.0414707,15.05z/data=!4m5!3m4!1s0x47769adda908d4b1:0xc1e183a1412af73d!8m2!3d47.80949!4d13.05501",
-        title: "Salzburg",
-        startDate: "10 Sept, 2015",
-        endDate: "25 Sept, 2015",
-        description: "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps. The city is divided by the Salzach River, with medieval and baroque buildings of the pedestrian Altstadt (Old City) on its left bank, facing the 19th-century Neustadt (New City) on its right. The Altstadt birthplace of famed composer Mozart is preserved as a museum displaying his childhood instruments.",
-        coverImg: "Salzburg.jpg",
-        alt: "View of Salsburg, Austria from the Fortress Hohensalzburg"
-    },
-    {
-        id: 5,
         location: "Switzerland",
         map: "https://www.google.com/maps/place/3920+Zermatt,+Switzerland/@46.0218253,7.7455427,16z/data=!4m5!3m4!1s0x478f35a2292ee5cd:0x400ff8840196f70!8m2!3d46.0207133!4d7.749117",
         title: "The Matterhorn",
-        startDate: "10 Sept, 2015",
-        endDate: "25 Sept, 2015",
+        startDate: "22 Sept, 2019",
+        endDate: "26 Sept, 2019",
         description: "Zermatt, in southern Switzerland’s Valais canton, is a mountain resort renowned for skiing, climbing and hiking. The town, at an elevation of around 1,600m, lies below the iconic, pyramid-shaped Matterhorn peak. Its main street, Bahnhofstrasse is lined with boutique shops, hotels and restaurants, and also has a lively après-ski scene. There are public outdoor rinks for ice-skating and curling.",
         coverImg: "Mattahorn.jpg",
         alt: "The Matterhorn as seen from Zermatt City below"
+    },
+    {
+        id: 5,
+        location: "Austria",
+        map: "https://www.google.com/maps/place/Salzburg,+Austria/@47.8018695,13.0414707,15.05z/data=!4m5!3m4!1s0x47769adda908d4b1:0xc1e183a1412af73d!8m2!3d47.80949!4d13.05501",
+        title: "Salzburg",
+        startDate: "27 Sept, 2019",
+        endDate: "29 Sept, 2019",
+        description: "Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps. The city is divided by the Salzach River, with medieval and baroque buildings of the pedestrian Altstadt (Old City) on its left bank, facing the 19th-century Neustadt (New City) on its right. The Altstadt birthplace of famed composer Mozart is preserved as a museum displaying his childhood instruments.",
+        coverImg: "Salzburg.jpg",
+        alt: "View of Salsburg, Austria from the Fortress Hohensalzburg"
     }
+    
 ]
 
 export default data
