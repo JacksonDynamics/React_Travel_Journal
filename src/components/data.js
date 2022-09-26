@@ -25,6 +25,17 @@ const data = [
     {
         id: 3,
         location: "Germany",
+        map: "https://www.google.com/maps/place/Brandenburg+Gate/@52.5031263,13.3483281,13.06z/data=!4m5!3m4!1s0x47a851c655f20989:0x26bbfb4e84674c63!8m2!3d52.5162746!4d13.3777041",
+        title: "Berlin",
+        startDate: "8 Sept, 2019",
+        endDate: "12 Sept, 2019",
+        description: "Berlin, Germany’s capital, dates to the 13th century. Reminders of the city's turbulent 20th-century history include its Holocaust memorial and the Berlin Wall's graffitied remains. Divided during the Cold War, its 18th-century Brandenburg Gate has become a symbol of reunification. The city's also known for its art scene and modern landmarks like the gold-colored, swoop-roofed Berliner Philharmonie, built in 1963.",
+        coverImg: "Berlin.jpg",
+        alt: "The Brandenburg Gate"
+    },
+    {
+        id: 4,
+        location: "Germany",
         map: "https://www.google.com/maps/place/91541+Rothenburg+ob+der+Tauber,+Germany/@49.3658144,10.1625091,12z/data=!3m1!4b1!4m5!3m4!1s0x47988efdf06dff37:0x41eda32beb5f5c0!8m2!3d49.3801834!4d10.1867388",
         title: "Rothenburg ob der Tauber",
         startDate: "18 Sept, 2019",
@@ -32,8 +43,9 @@ const data = [
         description: "Rothenburg ob der Tauber is a German town in northern Bavaria known for its medieval architecture. Half-timbered houses line the cobblestone lanes of its old town. The town walls include many preserved gate houses and towers, plus a covered walkway on top. St. Jakob’s Church houses an intricate, late Gothic altarpiece by woodcarver Tilman Riemenschneider. The medieval Town Hall has a tower with panoramic views.",
         coverImg: "Rothenburg.jpg",
         alt: "Rothenburg picturesqe house in Germany",
-    },{
-        id: 4,
+    },
+    {
+        id: 5,
         location: "Switzerland",
         map: "https://www.google.com/maps/place/3920+Zermatt,+Switzerland/@46.0218253,7.7455427,16z/data=!4m5!3m4!1s0x478f35a2292ee5cd:0x400ff8840196f70!8m2!3d46.0207133!4d7.749117",
         title: "The Matterhorn",
@@ -44,7 +56,7 @@ const data = [
         alt: "The Matterhorn as seen from Zermatt City below"
     },
     {
-        id: 5,
+        id: 6,
         location: "Austria",
         map: "https://www.google.com/maps/place/Salzburg,+Austria/@47.8018695,13.0414707,15.05z/data=!4m5!3m4!1s0x47769adda908d4b1:0xc1e183a1412af73d!8m2!3d47.80949!4d13.05501",
         title: "Salzburg",
